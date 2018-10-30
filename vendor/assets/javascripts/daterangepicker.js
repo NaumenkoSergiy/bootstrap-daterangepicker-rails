@@ -1195,11 +1195,11 @@
         clickNext: function(e) {
             var cal = $(e.target).parents('.drp-calendar');
             if (cal.hasClass('left')) {
-                this.leftCalendar.month.add(1, 'month');
+                // this.leftCalendar.month.add(1, 'month');
             } else {
                 this.rightCalendar.month.add(1, 'month');
                 if (this.linkedCalendars)
-                    this.leftCalendar.month.add(1, 'month');
+                   // this.leftCalendar.month.add(1, 'month');
             }
             this.updateCalendars();
         },
