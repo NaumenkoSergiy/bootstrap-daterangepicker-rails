@@ -1198,7 +1198,7 @@
                 // this.leftCalendar.month.add(1, 'month');
             } else {
                 this.rightCalendar.month.add(1, 'month');
-                if (this.linkedCalendars)
+                //if (this.linkedCalendars)
                    // this.leftCalendar.month.add(1, 'month');
             }
             this.updateCalendars();
