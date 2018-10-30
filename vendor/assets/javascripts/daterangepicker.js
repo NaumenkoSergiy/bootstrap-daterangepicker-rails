@@ -694,7 +694,7 @@
             if ((!minDate || minDate.isBefore(calendar.firstDay)) && (!this.linkedCalendars || side == 'left')) {
                 html += '<th class="prev available"><span></span></th>';
             } else {
-                html += '<th></th>';
+                html += '<th class="prev available"><span></span></th>';
             }
 
             var dateHtml = this.locale.monthNames[calendar[1][1].month()] + calendar[1][1].format(" YYYY");
@@ -736,7 +736,7 @@
             if ((!maxDate || maxDate.isAfter(calendar.lastDay)) && (!this.linkedCalendars || side == 'right' || this.singleDatePicker)) {
                 html += '<th class="next available"><span></span></th>';
             } else {
-                html += '<th></th>';
+                html += '<th class="next available"><span></span></th>';
             }
 
             html += '</tr>';
