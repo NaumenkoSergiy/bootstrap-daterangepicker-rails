@@ -1184,10 +1184,10 @@
             var cal = $(e.target).parents('.drp-calendar');
             if (cal.hasClass('left')) {
                 this.leftCalendar.month.subtract(1, 'month');
-                if (this.linkedCalendars)
-                    this.rightCalendar.month.subtract(1, 'month');
+                //if (this.linkedCalendars)
+                   // this.rightCalendar.month.subtract(1, 'month');
             } else {
-                this.rightCalendar.month.subtract(1, 'month');
+                //this.rightCalendar.month.subtract(1, 'month');
             }
             this.updateCalendars();
         },
